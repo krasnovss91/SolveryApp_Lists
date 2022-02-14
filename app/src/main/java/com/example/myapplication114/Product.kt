@@ -1,4 +1,3 @@
 package com.example.myapplication114
 
-class Product {
-}
+data class Product (val name: String, val count: Int, val unit: String)
